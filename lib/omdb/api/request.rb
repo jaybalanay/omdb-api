@@ -15,9 +15,9 @@ module Omdb
         @client  = client
         @value   = CGI.escape(value)
         @options = options
-        @field   = if /id/.match?(method)
+        @field   = if /id/.match(method)
                      'i'
-                   elsif /title/.match?(method)
+                   elsif /title/.match(method)
                      't'
                    else
                      's'

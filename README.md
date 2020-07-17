@@ -13,7 +13,7 @@ You must request an API key first from [here](http://omdbapi.com/)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omdb-api'
+gem 'omdb-api', git: 'https://github.com/jaybalanay/omdb-api.git'
 ```
 
 And then execute:
